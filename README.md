@@ -1,1 +1,1 @@
-"# coolrequest_function_lib" 
+# Cool Request插件函数库
