@@ -21,6 +21,16 @@ public class CoolRequestPublicFunction {
         }
     }
 
+    public static class UUID {
+        public static String uuid() {
+            return java.util.UUID.randomUUID().toString();
+        }
+
+        public static String uuidWithOutDelimiter() {
+            return uuid().replaceAll("-", "");
+        }
+    }
+
     public static class Int {
         public static int randInt(int start, int end) {
             return (int) (Math.random() * (end - start + 1) + start);
