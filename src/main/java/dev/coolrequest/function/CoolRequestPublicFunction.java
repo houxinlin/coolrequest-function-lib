@@ -1,6 +1,6 @@
 package dev.coolrequest.function;
 
-public class CoolRequestFunction {
+public class CoolRequestPublicFunction {
 
     public static class Color {
 
