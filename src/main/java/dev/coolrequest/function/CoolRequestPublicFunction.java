@@ -2,7 +2,7 @@ package dev.coolrequest.function;
 
 public class CoolRequestPublicFunction {
     public static class Time {
-        public long timestamp() {
+        public static long timestamp() {
             return System.currentTimeMillis();
         }
     }
