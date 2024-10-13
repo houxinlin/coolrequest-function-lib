@@ -1,6 +1,11 @@
 package dev.coolrequest.function;
 
 public class CoolRequestPublicFunction {
+    public static class Time {
+        public long timestamp() {
+            return System.currentTimeMillis();
+        }
+    }
 
     public static class Color {
 
